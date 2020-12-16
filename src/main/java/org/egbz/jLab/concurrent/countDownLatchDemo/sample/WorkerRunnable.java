@@ -1,4 +1,4 @@
-package org.egbz.jLab.concurrent.countDownLatchDemo;
+package org.egbz.jLab.concurrent.countDownLatchDemo.sample;
 
 import java.util.concurrent.CountDownLatch;
 

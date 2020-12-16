@@ -1,10 +1,11 @@
-package org.egbz.jLab.concurrent.countDownLatchDemo;
+package org.egbz.jLab.concurrent.countDownLatchDemo.sample;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
 /**
+ * sample from Doug Lea
  * @author egbz
  * @date 2020/12/16
  */
