@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @author egbz
@@ -11,12 +13,7 @@ import java.util.Set;
  */
 public class Hello {
     public static void main(String[] args) {
-        Integer[] a = {1, 2, 2, 3, 3, 3, 4};
-        for (int ele : a) {
-            System.out.println(ele);
-        }
 
-        ArrayList<Integer> aList = new ArrayList<Integer>(Arrays.asList(a));
 
         System.out.println("hello world");
     }
