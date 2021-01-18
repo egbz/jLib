@@ -1,4 +1,4 @@
-package org.egbz.jLab.io.nio;
+package org.egbz.jLab.io;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -7,7 +7,7 @@ import java.nio.channels.SocketChannel;
 
 /**
  * @author egbz
- * @date 2021/1/18
+ * @date 2021/1/17
  */
 public class Client {
     public static void main(String[] args) throws IOException {
@@ -30,5 +30,6 @@ public class Client {
             String result = new String(re, "UTF-8");
             System.out.println("返回值: " + result);
         }
+
     }
 }
