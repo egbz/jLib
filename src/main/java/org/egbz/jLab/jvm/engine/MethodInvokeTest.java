@@ -7,7 +7,7 @@ import java.lang.reflect.Field;
 
 /**
  * 使用MethodHandle, 子类 调用 祖类方法
- * p.s. <深入理解JVM>第二版 p258 此处有误
+ * p.s. <深入理解JVM>第二版 p268 此处有误
  *
  * @author egbz
  * @date 2021/4/13
