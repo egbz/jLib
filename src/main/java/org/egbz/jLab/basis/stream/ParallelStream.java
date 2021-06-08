@@ -1,6 +1,4 @@
-package org.egbz.jLab.daily.stream;
-
-import java.util.stream.IntStream;
+package org.egbz.jLab.basis.stream;
 
 /**
  * @author egbz

@@ -1,4 +1,4 @@
-package org.egbz.jLab;
+package org.egbz.jLab.trick;
 
 import com.google.common.base.Charsets;
 import com.google.common.hash.BloomFilter;

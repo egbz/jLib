@@ -1,4 +1,4 @@
-package org.egbz.jLab.daily.reflect;
+package org.egbz.jLab.basis.reflect;
 
 /**
  * @author egbz
