@@ -1,4 +1,4 @@
-package org.egbz.jLab.basis;
+package org.egbz.jLab.basis.generic;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
@@ -37,8 +37,16 @@ public class GenericTest {
         }
     }
 
-    public static void main(String[] args) throws Exception{
+    static void test3() {
+        ArrayList list = new ArrayList();
+        list.add("hello");
+        String first = (String) list.get(0);
+        System.out.println(first);
+    }
 
-        test1();
+    public static void main(String[] args) throws Exception{
+        test3();
+
+
     }
 }
